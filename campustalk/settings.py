@@ -25,7 +25,7 @@ SECRET_KEY = 'd%wrd6u$l6g+o$&cag=^f$g==&#+%2h70628bd4+ms92z)fg##'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['campustalk-subhashhardaha.c9users.io']
+ALLOWED_HOSTS = ['campustalk-subhashhardaha.c9users.io','subh2504.pythonanywhere.com']
 
 
 # Application definition
