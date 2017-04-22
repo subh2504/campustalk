@@ -17,6 +17,7 @@ import requests
 
 
 
+
 @csrf_exempt
 def check_status(request):
     m = {}
@@ -1003,3 +1004,7 @@ def uploaded_images(request):
 @csrf_exempt
 def test(request):
     return HttpResponse("hy6gbygbyhbtggvtgbnuhbtg6vbgyhunugtgybnujvtfgbnu8hn6tgh7y8uh")
+    
+@csrf_exempt
+def home(request):
+    return render(request,'ctalk/home.html')

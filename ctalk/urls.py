@@ -18,6 +18,7 @@ from django.conf.urls import url
 from . import views
 
 urlpatterns = [
+    
     url(r'^check_status/', views.check_status),
     url(r'^login/', views.login),
     url(r'^user_registration/', views.user_registration),
